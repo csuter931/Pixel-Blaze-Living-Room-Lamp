@@ -24,3 +24,6 @@ package-lock.json
 *.tmp
 *.temp
 
+# Local helper scripts
+push-to-github.ps1
+
