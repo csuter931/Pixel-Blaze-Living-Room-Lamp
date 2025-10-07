@@ -1,11 +1,11 @@
 function (pixelCount) {
   // LED Lamp 3D Mapping for Pixel Blaze
-  // 8-legged circular lamp with 26° splay angle
+  // 8-legged circular lamp with 28° splay angle
   // Each leg has 44 LEDs in a 1-foot strip
   // Lamp expands downward from a 5-inch hub at the top
   
   const NUM_LEGS = 8;
-  const SPLAY_ANGLE = 26 * Math.PI / 180; // Convert to radians
+  const SPLAY_ANGLE = 28 * Math.PI / 180; // Convert to radians
   const STRIP_LENGTH = 1.0; // feet
   const LEDS_PER_STRIP = 44;
   const LED_SPACING = STRIP_LENGTH / (LEDS_PER_STRIP - 1);
